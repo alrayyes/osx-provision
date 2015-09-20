@@ -64,10 +64,9 @@ case $response in
       git-flow
       mobile-shell
       tmux
-      brew-cask
       moreutils
-      composer
-      grep
+      homebrew/php/composer
+      homebrew/dupes/grep 
       mtr
       php-cs-fixer
       coreutils
@@ -88,6 +87,10 @@ case $response in
     echo "Installing sudolikeaboss"
     brew tap ravenac95/sudolikeaboss
     brew install sudolikeaboss
+
+    echo ""
+    echo "Installing php stuff"
+    brew install php56
 
     echo ""
     echo "Installing brew packages"
@@ -136,8 +139,10 @@ read -r response
 case $response in
   [yY])
     echo ""
-    cecho "Installing cask" $gray
+    cecho "Installing cask and tapping" $gray
     brew install caskroom/cask/brew-cask
+    brew tap popcorn-time/homebrew-cask https://git.popcorntime.io/caskroom/homebrew-cask.git
+    brew tap caskroom/versions
 
     echo ""
     echo "Installing brew-cask apps"
@@ -191,10 +196,10 @@ case $response in
       panic-unison
       phpstorm
       picasa
-      popcorn-time
       qlimagesize
       qlprettypatch
       qlstephen
+      popcorn-time
       quicklook-csv
       quicklook-json
       seashore
