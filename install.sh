@@ -173,7 +173,7 @@ case $response in
       firefox
       firefoxdeveloperedition
       github-desktop
-      gog-downloader
+      gog-galaxy
       google-chrome
       google-drive
       google-earth
