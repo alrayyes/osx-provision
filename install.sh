@@ -142,14 +142,19 @@ case $response in
     echo ""
     echo "Installing brew-cask apps"
     apps=(
+      0xed
       1password
+      adobe-reader
       adium
       alfred
       anvil
       appcleaner
-      betterzipql
+      betterzip
       bittorrent-sync
+      boxer
       caffeine
+      cocoarestclient
+      coconutbattery
       colloquy
       comicbooklover
       cyberduck
@@ -159,9 +164,11 @@ case $response in
       electric-sheep
       evernote
       feeds
+      filebot
       firefox
       firefoxdeveloperedition
       github-desktop
+      gog-downloader
       google-chrome
       google-drive
       google-earth
@@ -176,9 +183,12 @@ case $response in
       kitematic
       lastfm
       libreoffice
+      macgdbp
       macvim
       music-manager
+      musicbrainz-picard
       notational-velocity
+      panic-unison
       phpstorm
       picasa
       popcorn-time
