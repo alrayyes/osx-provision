@@ -196,6 +196,7 @@ case $response in
       panic-unison
       phpstorm
       picasa
+      plex-home-theater
       qlimagesize
       qlprettypatch
       qlstephen
