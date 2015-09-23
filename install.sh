@@ -223,6 +223,7 @@ case $response in
       virtualbox
       viscosity
       vlc
+      vmware-fusion
       webpquicklook
       wercker
       wercker-cli
