@@ -238,6 +238,27 @@ esac
 
 echo ""
 cecho "===================================================" $dark_gray
+cecho "Install node and npm? (y/n)" $gray
+cecho "===================================================" $dark_gray
+read -r response
+case $response in
+  [yY])
+    echo ""
+    cecho "Installing node (without npm)" $gray
+    # For more info, see here https://gist.github.com/DanHerbert/9520689
+    brew install node --without-npm
+
+    echo ""
+    cecho "Installing nvm to manage node" $gray
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | bash
+
+    brew cask cleanup
+    break;;
+  *) break;;
+esac
+
+echo ""
+cecho "===================================================" $dark_gray
 cecho "Install fonts? (y/n)" $gray
 cecho "===================================================" $dark_gray
 read -r response
