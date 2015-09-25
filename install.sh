@@ -238,6 +238,28 @@ esac
 
 echo ""
 cecho "===================================================" $dark_gray
+cecho "Install ruby? (y/n)" $gray
+cecho "===================================================" $dark_gray
+read -r response
+case $response in
+  [yY])
+    echo ""
+    cecho "Installing ruby-build & rbenv" $gray
+    # For more info, see here https://gist.github.com/DanHerbert/9520689
+    brew install ruby-build
+    brew install rbenv
+
+    echo ""
+    cecho "Installing latest version of ruby" $gray
+	rbenv install 2.2.3
+
+    brew cask cleanup
+    break;;
+  *) break;;
+esac
+
+echo ""
+cecho "===================================================" $dark_gray
 cecho "Install node and npm? (y/n)" $gray
 cecho "===================================================" $dark_gray
 read -r response
