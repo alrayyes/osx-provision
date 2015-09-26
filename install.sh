@@ -81,6 +81,7 @@ case $response in
       netcat
       TomAnthony/brews/itermocil
       vim
+	  ssh-copy-id
     )
 
     echo ""
