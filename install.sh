@@ -252,6 +252,7 @@ case $response in
     echo ""
     cecho "Installing latest version of ruby" $gray
 	rbenv install 2.2.3
+	rbenv global 2.2.3
 
     brew cask cleanup
     break;;
