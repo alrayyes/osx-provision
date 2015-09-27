@@ -82,6 +82,7 @@ case $response in
       TomAnthony/brews/itermocil
       vim
 	  ssh-copy-id
+	  http://download.panamax.io/installer/brew/panamax.rb
     )
 
     echo ""
