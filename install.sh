@@ -167,6 +167,7 @@ case $response in
       cyberduck
       deezer
       disk-inventory-x
+      dockertoolbox
       dropbox
       electric-sheep
       evernote
@@ -187,7 +188,6 @@ case $response in
       iterm2
       kdiff3
       keepassx
-      kitematic
       lastfm
       libreoffice
       macgdbp
