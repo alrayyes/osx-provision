@@ -194,6 +194,7 @@ case $response in
       macvim
       music-manager
       musicbrainz-picard
+	  mysqlworkbench
       notational-velocity
       panic-unison
       phpstorm
@@ -225,7 +226,6 @@ case $response in
       virtualbox
       viscosity
       vlc
-      vmware-fusion
       webpquicklook
       wercker
       wercker-cli
