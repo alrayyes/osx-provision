@@ -51,6 +51,7 @@ read -r response
 case $response in
   [yY])
     binaries=(
+	  asciinema
       ansible
       hugo
       ngrep
