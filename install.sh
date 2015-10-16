@@ -197,6 +197,7 @@ case $response in
 	  mysqlworkbench
       notational-velocity
       panic-unison
+	  pencil
       phpstorm
       picasa
       plex-home-theater
