@@ -189,6 +189,7 @@ case $response in
       iterm2
       kdiff3
       keepassx
+      kindle
       lastfm
       libreoffice
       macgdbp
