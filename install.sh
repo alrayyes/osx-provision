@@ -47,9 +47,15 @@ echo ""
 cecho "===================================================" $dark_gray
 cecho "Install brew utilities? (y/n)" $gray
 cecho "===================================================" $dark_gray
+
 read -r response
 case $response in
   [yY])
+	echo "Updating/upgrading brew & running doctor"
+	brew update
+	brew upgrade
+	brew doctor
+
     binaries=(
 	  asciinema
       ansible
@@ -146,6 +152,10 @@ case $response in
     brew install caskroom/cask/brew-cask
     brew tap popcorn-time/homebrew-cask https://git.popcorntime.io/caskroom/homebrew-cask.git
     brew tap caskroom/versions
+    
+	echo "Updating brew-cask & running doctor"
+	brew cask update
+	brew cask doctor
 
     echo ""
     echo "Installing brew-cask apps"
