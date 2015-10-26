@@ -216,7 +216,6 @@ case $response in
       qlimagesize
       qlprettypatch
       qlstephen
-      popcorn-time
       quicklook-csv
       quicklook-json
       seashore
