@@ -150,7 +150,6 @@ case $response in
     echo ""
     cecho "Installing cask and tapping" $gray
     brew install caskroom/cask/brew-cask
-    brew tap popcorn-time/homebrew-cask https://git.popcorntime.io/caskroom/homebrew-cask.git
     brew tap caskroom/versions
     
 	echo "Updating brew-cask & running doctor"
