@@ -59,6 +59,7 @@ case $response in
     binaries=(
 	  asciinema
       ansible
+      duck
       hugo
       ngrep
       youtube-dl
