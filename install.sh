@@ -171,6 +171,7 @@ case $response in
       bittorrent-sync
       boxer
       caffeine
+	  cheatsheet
       cocoarestclient
       coconutbattery
       colloquy
@@ -234,6 +235,7 @@ case $response in
       toggldesktop
       torbrowser
       transmission
+	  unetbootin
       vagrant
       virtualbox
       viscosity
