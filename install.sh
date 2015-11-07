@@ -237,6 +237,7 @@ case $response in
       transmission
 	  unetbootin
       vagrant
+	  vagrant-manager
       virtualbox
       viscosity
       vlc
