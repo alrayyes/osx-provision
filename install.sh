@@ -174,7 +174,6 @@ case $response in
 	  cheatsheet
       cocoarestclient
       coconutbattery
-      colloquy
       comicbooklover
       cyberduck
       deezer
@@ -230,6 +229,7 @@ case $response in
       sublime-text
       suspicious-package
       telegram
+	  textual
       the-unarchiver
       thunderbird
       toggldesktop
