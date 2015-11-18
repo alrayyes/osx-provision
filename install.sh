@@ -57,6 +57,7 @@ case $response in
 	brew doctor
 
     binaries=(
+      mitmproxy
 	  asciinema
       ansible
       duck
@@ -79,6 +80,7 @@ case $response in
       php-cs-fixer
       coreutils
       htop-osx
+      mariadb
       watch
       findutils
       httpie
