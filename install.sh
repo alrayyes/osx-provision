@@ -292,7 +292,7 @@ case $response in
 
     echo ""
     cecho "Installing nvm to manage node" $gray
-    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.26.1/install.sh | bash
+    curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.29.0/install.sh | bash
 
     brew cask cleanup
     break;;
