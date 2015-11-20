@@ -91,8 +91,8 @@ case $response in
       netcat
       TomAnthony/brews/itermocil
       vim
-	  ssh-copy-id
-	  http://download.panamax.io/installer/brew/panamax.rb
+      ssh-copy-id
+      http://download.panamax.io/installer/brew/panamax.rb
     )
 
     echo ""
@@ -247,6 +247,7 @@ case $response in
       wercker
       wercker-cli
       wireshark
+      xquartz
     )
 
     brew cask install ${apps[@]}
