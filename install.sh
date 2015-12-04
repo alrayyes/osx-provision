@@ -102,7 +102,9 @@ case $response in
 
     echo ""
     echo "Installing php stuff"
-    brew install php56
+    brew install php70
+    brew install php70-intl
+    brew install php70-xdebug
 
     echo ""
     echo "Installing brew packages"
