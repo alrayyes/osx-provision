@@ -198,6 +198,7 @@ case $response in
       google-hangouts
       google-photos-backup
       gpgtools
+      hacker-menu
       hipchat
       imageoptim
       iterm2
