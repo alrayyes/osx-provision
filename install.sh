@@ -255,6 +255,11 @@ case $response in
 
     brew cask install ${apps[@]}
     brew cask cleanup
+	
+    echo ""
+	cecho "Deleting old versions of cask apps" $gray
+	./cleanup.rb
+
     break;;
   *) break;;
 esac
