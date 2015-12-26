@@ -67,6 +67,7 @@ case $response in
       icdiff
       nmap
       zsh
+	  zsh-completions
       git
       mackup
       tcptrace
