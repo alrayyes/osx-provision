@@ -191,6 +191,7 @@ case $response in
       filebot
       firefox
       firefoxdeveloperedition
+      gif-for-mac
       github-desktop
       gog-galaxy
       google-chrome
