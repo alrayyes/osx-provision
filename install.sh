@@ -148,15 +148,11 @@ esac
 
 echo ""
 cecho "===================================================" $dark_gray
-cecho "Install brew cask and apps? (y/n)" $gray
+cecho "Install brew cask apps? (y/n)" $gray
 cecho "===================================================" $dark_gray
 read -r response
 case $response in
   [yY])
-    echo ""
-    cecho "Installing cask and tapping" $gray
-    brew install caskroom/cask/brew-cask
-    brew tap caskroom/versions
     
 	echo "Updating brew-cask & running doctor"
 	brew cask update
