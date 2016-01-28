@@ -168,7 +168,6 @@ case $response in
       alfred
       anvil
       appcleaner
-      betterzip
       bittorrent-sync
       boxer
       caffeine
