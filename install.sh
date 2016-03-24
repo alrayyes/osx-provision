@@ -94,6 +94,7 @@ case $response in
       vim
       ssh-copy-id
       http://download.panamax.io/installer/brew/panamax.rb
+      tree
     )
 
     echo ""
