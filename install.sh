@@ -134,6 +134,21 @@ esac
 
 echo ""
 cecho "===================================================" $dark_gray
+cecho "Install iTerm2 integration? (y/n)" $gray
+cecho "===================================================" $dark_gray
+read -r response
+case $response in
+  [yY])
+    echo ""
+    echo "Installing iTerm2 integration"
+    curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
+    break;;
+
+  *) break;;
+esac
+
+echo ""
+cecho "===================================================" $dark_gray
 cecho "Install spf13-vim? (y/n)" $gray
 cecho "===================================================" $dark_gray
 read -r response
