@@ -2,7 +2,7 @@
 #
 
 # Location of casks
-CASKROOM = '/opt/homebrew-cask/Caskroom/'
+CASKROOM = '/usr/local/Caskroom/'
 
 # Go through installed casks.
 Dir.foreach(CASKROOM) do |cask_name|
