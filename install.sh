@@ -134,13 +134,13 @@ esac
 
 echo ""
 cecho "===================================================" $dark_gray
-cecho "Install iTerm2 integration? (y/n)" $gray
+cecho "Install iTerm2 shell integration? (y/n)" $gray
 cecho "===================================================" $dark_gray
 read -r response
 case $response in
   [yY])
     echo ""
-    echo "Installing iTerm2 integration"
+    echo "Installing iTerm2 shell integration"
     curl -L https://iterm2.com/misc/install_shell_integration.sh | bash
     break;;
 
