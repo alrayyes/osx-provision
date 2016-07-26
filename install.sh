@@ -179,7 +179,6 @@ case $response in
     apps=(
       0xed
       1password
-      adobe-reader
       adium
       alfred
       anvil
@@ -260,6 +259,7 @@ case $response in
       viscosity
       vlc
       webpquicklook
+      webstorm
       wercker
       wercker-cli
       wireshark
