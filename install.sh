@@ -179,7 +179,6 @@ case $response in
     apps=(
       0xed
       1password
-      adobe-reader
       adium
       alfred
       anvil
@@ -194,7 +193,7 @@ case $response in
       cyberduck
       deezer
       disk-inventory-x
-      dockertoolbox
+      docker
       dropbox
       electric-sheep
       evernote
@@ -227,6 +226,7 @@ case $response in
 	  mysqlworkbench
       notational-velocity
       panic-unison
+      paw
 	  pencil
       phpstorm
       picasa
@@ -266,7 +266,7 @@ case $response in
       xquartz
     )
 
-    brew cask install ${apps[@]}
+    brew cask install --force ${apps[@]}
     brew cask cleanup
 	
     echo ""
