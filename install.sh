@@ -260,6 +260,7 @@ case $response in
       viscosity
       vlc
       webpquicklook
+      webstorm
       wercker
       wercker-cli
       wireshark
