@@ -191,6 +191,7 @@ case $response in
       coconutbattery
       comicbooklover
       cyberduck
+      dash
       deezer
       disk-inventory-x
       docker
